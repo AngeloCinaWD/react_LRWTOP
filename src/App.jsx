@@ -1,17 +1,30 @@
 import './App.css';
 
-// un componente in react è una funzione js che ritorna codice jsx
-// il nome di un componente inizia sempre con una lettera maiuscola
-// il codice ritornato deve essere sempre contenuto in un parent html (one root element), ad esempio posso ritornare un <div><div/> con dentro altro codice, ma se volessi ritornare più elementi html dello stesso livello (ad esempio 2 div siblings) avrei un errore, per non averlo posso utilizzare un react fragment, cioè wrappo tutto tra <> codice </> (è un empty html tag)
 function App() {
   return (
     <>
       <div>
-        <p>hello world</p>
+        {/* <p>hello world</p> */}
+        {/* utilizzo il componente Text, lo richiamo come se fosse un html element */}
+        <Text message={'componente 1'} />
+        {/* posso utilizzare il componente quante volte voglio, è un'altra istanza del componente */}
+        <Text message={'componente 2'} />
       </div>
       <div>
         <p>hello world 2</p>
       </div>
+    </>
+  );
+}
+
+// creo un altro componente e lo utilizzo nell'altro
+// per passare info al componente dall'esterno utilizzo le props
+// le props vengono passate in un oggetto come argomento della funzione
+function Text({ message }) {
+  return (
+    <>
+      {/* quello che è codice js viene inserito tra graffe */}
+      <p>Sono il message: {message}</p>
     </>
   );
 }
