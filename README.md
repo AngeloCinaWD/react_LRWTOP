@@ -6,6 +6,10 @@ cd project
 npm install
 npm run dev
 
+[thksTo](https://www.youtube.com/watch?v=G6D9cBaLViA&ab_channel=TechWithTim)
+[githubCode](https://github.com/techwithtim/Learn-React-In-One-Project)
+[tmdb](https://www.themoviedb.org/)
+
 [vite](https://vite.dev/)
 
 [react](https://react.dev/)
