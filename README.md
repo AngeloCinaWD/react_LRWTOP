@@ -22,4 +22,8 @@ npm run dev
 
 [react conditional rendering](https://react.dev/learn/conditional-rendering)
 
-[js short-circuit evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND#short-circuit_evaluation)
+[js short-circuit evaluation &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND#short-circuit_evaluation)
+
+[js .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[react rendering list](https://react.dev/learn/rendering-lists)
