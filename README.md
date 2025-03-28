@@ -19,3 +19,7 @@ npm run dev
 [vite difference between public and assets folder](https://stackoverflow.com/questions/78811027/when-to-use-public-vs-assets-for-images-and-files-in-a-vite-project)
 
 [react props](https://react.dev/learn/passing-props-to-a-component)
+
+[react conditional rendering](https://react.dev/learn/conditional-rendering)
+
+[js short-circuit evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND#short-circuit_evaluation)
