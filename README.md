@@ -27,3 +27,13 @@ npm run dev
 [js .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 [react rendering list](https://react.dev/learn/rendering-lists)
+
+[react useState()](https://react.dev/reference/react/useState)
+
+[react input tag, value e onchange](https://react.dev/reference/react-dom/components/input)
+
+[event.preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+[js .toLowerCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+
+[js .startsWith()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
