@@ -37,3 +37,9 @@ npm run dev
 [js .toLowerCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 
 [js .startsWith()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
+
+[difference between react-router and react-router-dom](https://stackoverflow.com/questions/42684809/react-router-vs-react-router-dom-when-to-use-one-or-the-other)
+
+[react Router](https://reactrouter.com/)
+
+[react Router installation](https://reactrouter.com/start/data/installation)
