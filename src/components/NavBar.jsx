@@ -1,7 +1,8 @@
+// importo lo style
+import '../css/Navbar.css';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
-  // utilizzo il Link component per essere indirizzato ad una pagina tramite Router
   return (
     <nav className='navbar'>
       <div className='navbar-brand'>

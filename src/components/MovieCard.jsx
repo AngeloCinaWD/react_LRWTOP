@@ -1,3 +1,6 @@
+//importo lo style
+import '../css/MovieCard.css';
+
 function MovieCard({ movie }) {
   function onFavoriteClick() {
     alert('clicked');

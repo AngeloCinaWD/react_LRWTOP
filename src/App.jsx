@@ -1,22 +1,22 @@
-import './App.css';
+// per utilizzare un foglio di stile solo per un determinato componente lo devo importare
+// per convenzione il foglio di stile ha lo stesso nome del componente jsx
+// creo una cartella css in src e ci scarico dentro tutti i file css che mi serviranno per l'app
+// rimuovo i file index.css e App.css creati con la creazione del progetto tramite vite
+// import './App.css';
+// importo il nuovo file di stile css
+import './css/App.css';
 import NavBar from './components/NavBar';
 import Favorites from './pages/Favorites';
 import Home from './pages/Home';
-// importo Routes e Route per renderizzare i componenti secondo rotta nell'url
 import { Route, Routes } from 'react-router-dom';
 
-// creo una nuova folder pages in src
-// ci creo 2 file .jsx, Home e Favorites
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      {/* qui metto la navbar in modo da averla in tutte le pagine */}
       <NavBar />
       <div>
         <main>
           <Routes>
-            {/* le rotte le definsco qui, tramite Route component */}
             <Route
               path='/'
               element={<Home />}

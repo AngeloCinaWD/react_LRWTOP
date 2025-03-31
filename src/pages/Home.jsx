@@ -1,3 +1,5 @@
+// importo il css per lo style
+import '../css/Home.css';
 import MovieCard from '../components/MovieCard';
 import { useState } from 'react';
 
