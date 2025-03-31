@@ -1,11 +1,15 @@
-// importo il css per lo style
 import '../css/Home.css';
 import MovieCard from '../components/MovieCard';
 import { useState } from 'react';
+import { getPopularMovies } from '../services/api';
 
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
 
+  console.log(getPopularMovies());
+
+  // quello che vogliamo fare è rendere la const movies dinamica, cioè l'array di film si deve riempire con la response di una call ad una API
+  // creo una folder services in src
   const movies = [
     { id: 1, title: 'John Wick', release_date: '2020' },
     { id: 2, title: 'Terminator', release_date: '2021' },

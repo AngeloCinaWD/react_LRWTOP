@@ -43,3 +43,21 @@ npm run dev
 [react Router](https://reactrouter.com/)
 
 [react Router installation](https://reactrouter.com/start/data/installation)
+
+[react style components](https://www.freecodecamp.org/news/how-to-style-react-components/)
+
+[tmdb - settings api](https://www.themoviedb.org/settings/api)
+
+[tmdb developer api](https://developer.themoviedb.org/docs/getting-started)
+
+[tmdb developer api authentication](https://developer.themoviedb.org/docs/authentication-application)
+
+[tmdb developer api popular movie](https://developer.themoviedb.org/reference/movie-popular-list)
+
+[tmdb developer api search movie](https://developer.themoviedb.org/reference/search-movie)
+
+[js async await](https://it.javascript.info/async-await)
+
+[js fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+[js encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)

@@ -1,4 +1,3 @@
-// importo il css
 import '../css/Favorites.css';
 
 function Favorites() {
