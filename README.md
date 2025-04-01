@@ -73,3 +73,23 @@ npm run dev
 [js truthy and falsy](https://www.freecodecamp.org/news/javascript-if-statement-equality-and-truthy-falsy/)
 
 [js try...catch...finally block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+[window localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+[react context](https://react.dev/learn/passing-data-deeply-with-context)
+
+[react context 2](https://www.freecodecamp.org/italian/news/react-context-per-principianti/)
+
+[react createContex()](https://react.dev/reference/react/createContext)
+
+[react useContext()](https://react.dev/reference/react/useContext)
+
+[react prop drilling](https://www.freecodecamp.org/news/prop-drilling-in-react-explained-with-examples/)
+
+[react useState: setState(previous => {})](https://abidemi-dev.medium.com/react-hooks-usestate-with-previous-state-55b6272f1473)
+
+[js spread e rest operator](https://www.freecodecamp.org/news/three-dots-operator-in-javascript/)
+
+[js .filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+[js .some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)

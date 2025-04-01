@@ -8,7 +8,10 @@ import App from './App.jsx';
 // seleziona l'elemento #root nell'index.html e vi renderizza l'app, passandogli il componente App.jsx
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    {/* BrowserRouter acts like a context */}
+    {/* wrappa l'intera app e consente di utilizzare globalmente slash routes */}
     <BrowserRouter>
+      {/* app fa parte della children prop di BrowserRouter perchè è nel suo tag  */}
       <App />
     </BrowserRouter>
   </StrictMode>

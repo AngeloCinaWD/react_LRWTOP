@@ -4,11 +4,17 @@ import Favorites from './pages/Favorites';
 import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 
+// importo il provider che voglio utilizzare
+import { MovieProvider } from './contexts/MoviesContext';
+
 function App() {
   return (
     <>
       <NavBar />
-      <div>
+      {/* <div> */}
+      {/* wrappo tutto col MovieProvider */}
+      {/* lo state fornito dal provider è disponibile in Home, in Favorites ed anche nei componenti children di questi */}
+      <MovieProvider>
         <main>
           <Routes>
             <Route
@@ -21,7 +27,8 @@ function App() {
             />
           </Routes>
         </main>
-      </div>
+      </MovieProvider>
+      {/* </div> */}
     </>
   );
 }

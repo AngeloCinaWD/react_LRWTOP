@@ -1,6 +1,5 @@
 import '../css/Home.css';
 import MovieCard from '../components/MovieCard';
-// importo l'hook useEffect() che ci permette di gestire le chiamate API
 import { useState, useEffect } from 'react';
 import {
   getBaseUrlImages,
@@ -9,14 +8,15 @@ import {
 } from '../services/api';
 
 function Home() {
+  // gli state definiti in un componente sono visibili solo nel componente stesso, a meno che non li passiamo ad un altro componente tramite prop, da parent a children da parent a children e così via tra i componenti annidati (Prop Drilling)
+  // per avere dati disponibili per tutti i componenti o pagine si utilizza il context di react
+  // a context will allow state to be globally available to anything that's within the provided context
+  // un esempio è contrassegnare un movie come favorito in homepage e quando si va nella favorites page si hanno solo quelli favoriti
+  // creo una nuova folder in src: contexts e dentro un file MoviesContext.jsx
   const [searchQuery, setSearchQuery] = useState('');
-
   const [movies, setMovies] = useState([]);
-
   const [baseUrlImages, setBaseUrlImages] = useState('');
-
   const [error, setError] = useState(null);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -38,41 +38,25 @@ function Home() {
     loadPopularMovies();
   }, []);
 
-  // il metodo è asincrono
   const handleSearch = async (e) => {
     e.preventDefault();
-    // alert(searchQuery);
-    // per cercare i film secondo titolo devo inviare l'input inserito alla funzione searchMovies()
-    // prima si controlla che la ricerca parta se searchQuery non è una stringa vuota o un insieme di spazi, cioè l'utente potrebbe fare spazio spazio spazio ed inviare, lo spazio è un carattere quindi verrebbe passato qualcosa
-    // per accertarmi che non sia questo caso utilizzo il metodo .trim() sull'input inviato, questo mi restituisce la strina ripulita da spazi bianchi
-    // se è un insieme di spazi mi restituisce un empty string che è un falsy, quindi se è falsy con il ! mi restituisce true e blocco la funzione tramite return
-    // inoltre non deve essere in corso un altro caricamento
     if (!searchQuery.trim() || loading) {
       return;
     }
 
-    // se l'input va bene setto loading a true, al momento è false perchè dopo la chiamata per i movies più popolari viene settata a false
     setLoading(true);
-    // invio chiamata
-    // utilizzo try catch finally block
     try {
-      // invio chiamata
       const searchedMovies = await searchMovies(searchQuery);
-
-      // setto i movies con il risultato della query
       setMovies(searchedMovies);
-      // setto error a false
       setError(false);
     } catch (error) {
       console.log(error);
-      // setto eventuale errore e verrà mostrato il messaggio
       setError('Failed to search movies...');
     } finally {
-      // interrompo il caricamento
       setLoading(false);
     }
 
-    // setSearchQuery('');
+    setSearchQuery('');
   };
 
   return (
