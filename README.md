@@ -50,6 +50,8 @@ npm run dev
 
 [tmdb developer api](https://developer.themoviedb.org/docs/getting-started)
 
+[tmdb developer api configuration](https://developer.themoviedb.org/reference/configuration-details)
+
 [tmdb developer api authentication](https://developer.themoviedb.org/docs/authentication-application)
 
 [tmdb developer api popular movie](https://developer.themoviedb.org/reference/movie-popular-list)
@@ -61,3 +63,9 @@ npm run dev
 [js fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 [js encodeURIComponent()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)
+
+[react useEffect()](https://react.dev/reference/react/useEffect)
+
+[tmdb developer show images](https://developer.themoviedb.org/docs/image-basics)
+
+[js .split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
