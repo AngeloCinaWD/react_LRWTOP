@@ -69,3 +69,7 @@ npm run dev
 [tmdb developer show images](https://developer.themoviedb.org/docs/image-basics)
 
 [js .split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+
+[js truthy and falsy](https://www.freecodecamp.org/news/javascript-if-statement-equality-and-truthy-falsy/)
+
+[js try...catch...finally block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)

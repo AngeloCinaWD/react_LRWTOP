@@ -1,6 +1,4 @@
-// apikey
 const API_KEY = '00fc6f8f5568da14692dfb2724b20a69';
-// URL api
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const getBaseUrlImages = async () => {
