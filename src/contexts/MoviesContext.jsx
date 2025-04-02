@@ -15,6 +15,7 @@ export const MovieProvider = ({ children }) => {
   // creo lo state che voglio condividere
   // const [favorites, setFavorites] = useState([]);
   const [favorites, setFavorites] = useState(
+    // eslint-disable-next-line no-extra-boolean-cast
     !!JSON.parse(localStorage.getItem('favorites'))
       ? JSON.parse(localStorage.getItem('favorites'))
       : []
